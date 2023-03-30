@@ -1,8 +1,50 @@
-@charset "UTF-8"
-
+@charset "UTF-8";
+* {
+    margin: 0px;
+    padding: 0px;
+}
 body{
-    color: aliceblue;
+    background-color: white;
+    font-family: 'Times New Roman', Times, serif;
+
 }
 header{
-    color: blue;
+    background-color: black;
+    color: white;
+    text-align: center;
+    text-justify: auto;
+    padding: 50px;
+}
+a{
+    color: white;
+}
+main{
+    font-size: larger;
+    
+}
+main > p{
+    margin: 0px;
+    padding: 50px;
+}
+main > p#c1{
+    background-color: rgba(0, 0, 0, 0.274);
+    background-image: url(imagens/joaninha.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+main > p#c2{
+    background-color: black;
+    background-image: url(imagens/carta.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+footer{
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    text-align: center;
+
 }
