@@ -29,25 +29,33 @@ main{
     font-size: larger;
     
 }
-main > p{
+main > div{
     margin: 0px;
     padding: 50px;
 }
-main > p#c1{
-    color: white;
+main > div#c1{
+    
     background-color: rgba(0, 0, 0, 0.274);
     background-image: url(imagens/joaninha.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
 }
-main > p#c2{
-    color: white;
+main > div#c2{
+    
     background-color: black;
     background-image: url(imagens/carta.jpg);
     background-position: center center;
     background-size: cover;
     background-attachment: fixed;
+}
+div > p{
+    display: inline-block;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.26);
+    width: 300px;
+    border-radius: 5px;
+
 }
 footer{
     margin: 0px;
@@ -55,5 +63,4 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
-
 }
